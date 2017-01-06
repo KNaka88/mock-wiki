@@ -9,7 +9,11 @@ body {
 }
 
 
-.main {
+.main-column {
+  padding-left: 160px;
+}
+
+.ssmain {
   height: 300px;
   border: 2px solid orange;
   width 100%;
@@ -26,9 +30,18 @@ footer {
   padding: .1% .1% .1% .1%;
 }
 
-.lang-bar {
-  float:left;
-  width: 100px;
+#lang-bar {
+  display:block;
+  width: 160px;
+  height: 100vh;
+  float: left;
   border: 2px solid brown;
-  height: 1000px;
+}
+#main-column{
+  border: 2px solid orange;
+
+}
+
+#today {
+    border: 2px solid black;
 }
